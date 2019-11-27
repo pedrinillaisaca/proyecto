@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
     <script src="../controlador/controlador.js"></script>
+=======
+	<script type="text/javascript" src="../controladores/crear_usuario.js"></script>
+>>>>>>> 88b04692f6ccc33b425592ccc57db34b532a4b1d
     <style type="text/css">
         .login-form {
             width: 340px;
@@ -35,17 +39,26 @@
 </head>
 <body>
 <div class="login-form">
+<<<<<<< HEAD
     <form onsubmit="return logIn()" method="post">
         <h2 class="text-center">Iniciar Sesion</h2>
         <div class="form-group">
             <label for="mail"></label>
             <input id="mail" type="email" class="form-control" placeholder="E-mail" required="required">
+=======
+    <form id="formulario01" action="" method="POST" onsubmit="return iniciar_sesion()">
+        <h2 class="text-center">Iniciar Sesion</h2>
+        <div class="form-group">
+            <label for="mail"></label>
+            <input id="correo" type="email" class="form-control" placeholder="E-mail" required="required">
+>>>>>>> 88b04692f6ccc33b425592ccc57db34b532a4b1d
         </div>
         <div class="form-group">
             <label for="password"></label>
             <input id="password" type="password" class="form-control" placeholder="Contraseña" required="required">
         </div>
         <div class="form-group">
+<<<<<<< HEAD
             <button type="submit" class="btn btn-primary btn-block" onsubmit="logIn()">Log in</button>
         </div>
         <div class="clearfix">
@@ -53,6 +66,16 @@
         </div>
     </form>
     <p class="text-center"><a href="javascript:registro()">Registrate</a></p>
+=======
+			<input type="submit" class="btn btn-primary btn-block" name='login' value="lOG IN" onclick="return iniciar_sesion()"/>
+            
+        </div>
+        <div class="clearfix">
+            <a href="#" class="pull-right">Entrar sin registrarse</a>
+        </div>
+    </form>
+    <p class="text-center"><a href="#">Registrate</a></p>
+>>>>>>> 88b04692f6ccc33b425592ccc57db34b532a4b1d
 </div>
 </body>
 </html>
